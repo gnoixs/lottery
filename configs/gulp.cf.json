@@ -1,0 +1,19 @@
+{
+	"clean"  :   ["public/build"],   
+	"style"  :  {
+		"src"    : "public/src/sass/*.scss",
+		"build"  : "public/build/style/",
+		"deploy" : "public/deploy/style/",
+	},
+	"scripts" : {
+		"src"    : "public/src/scripts/*.js",
+		"build"  : "public/build/scripts/",
+		"deploy" : "public/deploy/scripts/"
+	},
+	"images" : {
+		"src"    : "public/src/imgs/**/*.{jpg,png,gif,jpeg}",
+		"build"  : "public/build/imgs/",
+		"deploy" : "public/deploy/imgs/"
+	}
+}
+
